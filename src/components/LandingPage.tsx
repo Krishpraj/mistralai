@@ -10,7 +10,7 @@ import GradientFooter from "./GradientFooter";
 import AIFeatureShowcase from "./feature/AIFeatureShowcase";
 import Header from "./container/Header";
 import SearchContainer from "./searchbar/SearchContainer";
-
+import MarqueeText from "./movingtext/MarqueeText";
 const LandingPage: React.FC = () => {
   const [showSearch, setShowSearch] = React.useState(false);
 
@@ -36,6 +36,7 @@ const LandingPage: React.FC = () => {
       {showSearch && !document.querySelector('footer:hover') && <SearchContainer />}
       <Header/>
       <AIFeatureShowcase />
+      <MarqueeText />
       <AnnouncementsSection />
       <CareersHero />
       <CTASection />
