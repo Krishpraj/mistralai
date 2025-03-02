@@ -29,7 +29,7 @@ const LandingPage: React.FC = () => {
   }, []);
 
   return (
-    <main className="bg-amber-50">
+    <main className="bg-amber-50  overflow-x-clip">
       <div id="hero-section">
       <HeroSection />
       </div>

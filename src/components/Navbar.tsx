@@ -6,7 +6,7 @@ const NavItem: React.FC<NavItemProps> = ({ text, href = "#" }) => {
   return (
     <a
       href={href}
-      className="grow shrink px-4 py-2 text-base leading-none text-amber-50 whitespace-nowrap "
+      className="grow shrink px-4 py-2 text-base leading-none text-amber-50 whitespace-nowrap"
     >
       {text}
     </a>
