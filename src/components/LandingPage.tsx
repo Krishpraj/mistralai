@@ -2,7 +2,6 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import FeaturesSection from "./FeaturesSection";
-import AnnouncementsSection from "./AnnouncementsSection";
 import CareersHero from "./CareersHero";
 import CTASection from "./CTASection";
 import Footer from "./Footer";
@@ -11,6 +10,8 @@ import AIFeatureShowcase from "./feature/AIFeatureShowcase";
 import Header from "./container/Header";
 import SearchContainer from "./searchbar/SearchContainer";
 import MarqueeText from "./movingtext/MarqueeText";
+import Container from "./info/Container";
+import AnnouncementsSection from "./AnnouncementSection/AnnouncementsSection";
 const LandingPage: React.FC = () => {
   const [showSearch, setShowSearch] = React.useState(false);
 
@@ -37,6 +38,7 @@ const LandingPage: React.FC = () => {
       <Header/>
       <AIFeatureShowcase />
       <MarqueeText />
+      <Container/>
       <AnnouncementsSection />
       <CareersHero />
       <CTASection />
