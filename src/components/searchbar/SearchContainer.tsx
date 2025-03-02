@@ -7,7 +7,7 @@ import * as React from "react";
 function SearchContainer() {
   return (
     <form
-      className="flex items-center py-3 pr-3 pl-6 mx-auto bg-amber-50 shadow max-w-[539px] max-sm:mx-5 fixed bottom-10 z-50 left-0 right-0"
+      className="flex items-center py-3 pr-3 pl-6 mx-auto bg-white shadow max-w-[539px] max-sm:mx-5 fixed bottom-10 z-50 left-0 right-0"
       onSubmit={(e) => e.preventDefault()}
     >
       <SearchInput />

@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import HeroSection from "./HeroSection";
-import FeaturesSection from "./FeaturesSection";
-import CareersHero from "./CareersHero";
 import CTASection from "./CTASection";
 import Footer from "./Footer";
 import GradientFooter from "./GradientFooter";
@@ -12,6 +10,7 @@ import SearchContainer from "./searchbar/SearchContainer";
 import MarqueeText from "./movingtext/MarqueeText";
 import Container from "./info/Container";
 import AnnouncementsSection from "./AnnouncementSection/AnnouncementsSection";
+import Careers from "./careers/Careers";
 const LandingPage: React.FC = () => {
   const [showSearch, setShowSearch] = React.useState(false);
 
@@ -40,7 +39,7 @@ const LandingPage: React.FC = () => {
       <MarqueeText />
       <Container/>
       <AnnouncementsSection />
-      <CareersHero />
+      <Careers />
       <CTASection />
       <GradientFooter />
       <Footer />

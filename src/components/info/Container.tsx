@@ -8,7 +8,7 @@ const Container: React.FC = () => {
   return (
     <section className="overflow-auto relative z-0 px-32 py-5 bg-amber-50 h-[1430px] max-md:p-5 max-md:h-auto max-sm:p-4">
       <div 
-      className="absolute left-[15%] right-[15%] top-0 bottom-0 -z-10"
+      className="absolute left-[5.7%] right-[5.7%] top-0 bottom-20 -z-10"
       style={{
       backgroundSize: '50px 50px',
       backgroundImage: `
